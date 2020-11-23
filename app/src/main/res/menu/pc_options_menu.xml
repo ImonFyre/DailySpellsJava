@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menuLevelUpButton"
+        android:title="@string/menuLevelUp"/>
+     <item
+        android:id="@+id/menuPCDisplayEdit"
+        android:title="@string/menuPCDisplayEdit"/>
+
+</menu>

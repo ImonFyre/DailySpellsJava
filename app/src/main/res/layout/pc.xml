@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/PC_Root"
+    android:layout_width="250dp"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/trLL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/StrengthLabel"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:text="@string/StrLabel" />
+
+        <TextView
+            android:id="@+id/StrengthBonusLabel"
+            android:layout_width="80dp"
+            android:layout_height="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/DexLL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/trLL" >
+
+        <TextView
+            android:id="@+id/DexLabel"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:text="@string/DexLabel" />
+
+        <TextView
+            android:id="@+id/DexBonusLabel"
+            android:layout_width="80dp"
+            android:layout_height="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/conLL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DexLL" >
+
+        <TextView
+            android:id="@+id/ConLabel"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:text="@string/ConLabel" />
+
+        <TextView
+            android:id="@+id/ConBonusLabel"
+            android:layout_width="80dp"
+            android:layout_height="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/IntLL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/conLL" >
+
+        <TextView
+            android:id="@+id/IntLabel"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:text="@string/IntLabel" />
+
+        <TextView
+            android:id="@+id/IntBonusLabel"
+            android:layout_width="80dp"
+            android:layout_height="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/WisLL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IntLL" >
+
+        <TextView
+            android:id="@+id/WisLabel"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:text="@string/WisLabel" />
+
+        <TextView
+            android:id="@+id/WisBonusLabel"
+            android:layout_width="80dp"
+            android:layout_height="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ChaLL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/WisLL" >
+
+        <TextView
+            android:id="@+id/ChaLabel"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:text="@string/ChaLabel" />
+
+        <TextView
+            android:id="@+id/ChaBonusLabel"
+            android:layout_width="80dp"
+            android:layout_height="20dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/NewDayButton"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/ChaLL"
+        android:text="@string/NewDay" />
+
+    <!-- <TextView
+        android:id="@+id/AbilityString"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/NewDayButton" />-->
+
+    <ListView
+        android:id="@+id/AblilityListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/NewDayButton" 
+        />
+
+</RelativeLayout>

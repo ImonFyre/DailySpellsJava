@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Daily Spells</string>
+<string name="ChooseCharacter">Choose Your Character</string>
+<string name="menuNewCharacter">New Character</string>
+
+<string name="strengthLabel">Strength</string>
+<string name="dexterityLabel">Dexterity</string>
+<string name="intelligenceLabel">Intelligence</string>
+<string name="wisdomLabel">Wisdom</string>
+<string name="charismaLabel">Charisma</string>
+<string name="okNewCharacterDialog">OK</string>
+<string name="cancelNewCharacterDialog">Cancel</string>
+<string name="CharacterName">Name :</string>
+<string name="CharacterClass">Class :</string>
+<string name="CharacterRace">Race :</string>
+<string name="StrLabel">Str: </string>
+<string name="DexLabel">Dex: </string>
+<string name="ConLabel">Con: </string>
+<string name="IntLabel">Int: </string>
+<string name="WisLabel">Wis: </string>
+<string name="ChaLabel">Cha: </string>
+<string name="Level">Level: </string>
+<string name="NewDay">New Day</string>
+<string name="constitutionLabel">Constitution</string>
+<string name="menuLevelUp">Level Up</string>
+<string name="menuPCDisplayEdit">Edit</string>
+<string name="LevelUpSign">+</string>
+<string name="LevelDownSign">-</string>
+<string name="BaseLevel">1</string>
+</resources>
